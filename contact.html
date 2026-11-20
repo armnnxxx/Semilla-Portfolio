@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Sittie Ainah Semilla</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">Sittie<span>Ainah</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2 class="section-title">Get in Touch</h2>
+            <p class="section-subtitle">Feel free to reach out for academic collaborations, projects, or inquiries.</p>
+
+            <div class="contact-wrapper">
+                <div class="card">
+                    <h3>Contact Information</h3>
+                    <span class="meta">Direct Channels</span>
+
+                    <div class="contact-item">
+                        <strong>Email Address</strong>
+                        <a href="mailto:siennaainahra@gmail.com">siennaainahra@gmail.com</a>
+                    </div>
+
+                    <div class="contact-item">
+                        <strong>Mobile Number</strong>
+                        <a href="tel:+639567013020">0956 701 3020</a>
+                    </div>
+
+                    <div class="contact-item">
+                        <strong>Location</strong>
+                        <span>Santa Maria Village, Calapan City, Oriental Mindoro, Philippines</span>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>Send a Message</h3>
+                    <span class="meta">Opens your default email app</span>
+
+                    <form action="mailto:siennaainahra@gmail.com" method="post" enctype="text/plain">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="Name" placeholder="Enter your full name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="Email" placeholder="Enter your email address" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="Subject" placeholder="What is this regarding?" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="Message" rows="5" placeholder="Write your message here..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Sittie Ainah Castillo Semilla. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
